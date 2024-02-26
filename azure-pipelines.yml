@@ -11,7 +11,7 @@ pool: Default
 steps:
 - script: |
     whoami
-    export JAVA_HOME_11_X64=/usr/lib/jvm/java-11-amazon-corretto.x86_64
+    source /etc/environment
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
