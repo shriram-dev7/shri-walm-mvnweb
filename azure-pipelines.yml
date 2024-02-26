@@ -21,7 +21,7 @@ steps:
 
 - task: DockerInstaller@0
   inputs:
-    dockerVersion: '25.0.3'
+    dockerVersion: '20.10.9'
 - script: | 
     sudo systemctl enable --now docker 
     sudo docker version 
