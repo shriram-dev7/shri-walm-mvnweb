@@ -24,7 +24,7 @@ steps:
     dockerVersion: '17.09.0-ce'
 - script: | 
     sudo systemctl enable --now docker 
-    sudo docker version 
+    docker version 
 - task: JavaToolInstaller@0
   inputs:
     versionSpec: '8'
