@@ -21,6 +21,5 @@ steps:
 
 - task: DockerInstaller@0
   inputs:
-    dockerVersion: '17.09.0-ce'
-    releaseType: stable
+    dockerVersion: '20.10.25'
 - script: docker version 
