@@ -21,5 +21,5 @@ steps:
 
 - task: DockerInstaller@0
   inputs:
-    dockerVersion: '20.10.25'
+    dockerVersion: '25.0.3'
 - script: docker version 
